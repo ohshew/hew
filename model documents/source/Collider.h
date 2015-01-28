@@ -16,7 +16,7 @@ class Collider
 	sp<ColliderSpace> objects_;
 
 	public:
-	void Init(sp<std::vector<GameObject>> objects_);
+	void Init(sp<std::vector<GameObject>> _objects);
 	void Update();
 
 };
